@@ -21,10 +21,15 @@ jobs:
       with:
         ruby-version: '3.0.2'
         bundler-cache: true
-    - name: Update Bundler
+    - name: Install Bundler 2.1.4
+      run: gem install bundler -v 2.1.4
+
+    - name: Use Bundler 2.1.4
+      run: bundle _2.1.4_ install
+
+    - name: Install dependencies
       run: bundle install
-    - name: Ignore default gem conflicts
-      run: bundle config set --local ignore_messages 'You have already activated'
+      
     - name: Install deps
       run: |
         npm install -g mermaid.cli
