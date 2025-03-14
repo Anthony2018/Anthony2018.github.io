@@ -24,9 +24,6 @@ jobs:
     - name: Install Bundler 2.1.4
       run: gem install bundler -v 2.1.4
 
-    - name: Use Bundler 2.1.4
-      run: bundle _2.1.4_ install
-
     - name: Install dependencies
       run: bundle install
 
