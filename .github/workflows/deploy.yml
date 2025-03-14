@@ -23,6 +23,8 @@ jobs:
         bundler-cache: true
     - name: Update Bundler
       run: bundle install
+    - name: Ignore default gem conflicts
+      run: bundle config set --local ignore_messages 'You have already activated'
     - name: Install deps
       run: |
         npm install -g mermaid.cli
