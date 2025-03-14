@@ -22,7 +22,7 @@ jobs:
         ruby-version: '2.7.6'
         bundler-cache: true
     - name: Update Bundler
-      run: gem install bundler 
+      run: bundle install
     - name: Install deps
       run: |
         npm install -g mermaid.cli
