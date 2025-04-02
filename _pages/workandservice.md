@@ -41,5 +41,6 @@ Mentor: [Dennis Meng](https://kernellabs.io/), Lead Data Scientist at Kernel Lab
 ### **Services**
 - Conference Reviews: CIKM, KDD, NeurIPS, AAAI, MICCAI, CLAI, ICLR, ICML, CVPR, WACV, ICMD, ISKE, SAM
 - Workshop: NeurIPS AFT, NeurIPS AID4, NeurIPS DLDE, NeurIPS AI4D
-- Journal Reviews: PLOS ONE, Data Science and Management (DSM), BICM, TNNLS
+- Journal Reviews: PLOS ONE, Data Science and Management (DSM), BICM, TNNLS, ACS
+- Editorial and Reviewer Board: Journal of Human Cognition
 - Other Services: Graduate Applicant Support Program (GASP) 
